@@ -1,0 +1,16 @@
+.App {
+  background-image: url(../../assets/fundo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.Title {
+  font-size: large;
+  padding: 5%;
+}
+.Form {
+  align-items: center;
+  flex-direction: column;
+}
