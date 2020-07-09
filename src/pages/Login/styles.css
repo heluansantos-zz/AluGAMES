@@ -1,27 +1,58 @@
 .App {
-  background-image: url(../../assets/fundo.jpg) no-repeat right bottom fixed;
-  background-size: 10px;
-}
-.Title {
-  font-size: 30px;
-  padding: 10%;
+  background-image: url(../../assets/fundo111.png) no-repeat right bottom fixed;
+  background-size: 200px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  overflow: hidden;
+  flex: wrap;
 }
 
+#flex{
+  display: flex; /*fica um ao lado do outro*/
+    justify-content: space-between; /*Irá dar espaço entre os itens*/
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#flex-1{
+  display: flex; /*fica um ao lado do outro*/
+    justify-content: space-between; /*Irá dar espaço entre os itens*/
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+#flex-1 a{
+  color: black;
+  text-decoration:none;
+  font-size: 12px;
+  font-weight: bolder;
+}
+#botao-ajuda{
+  color: #FFACAC;
+  font-weight: bold;
+  border: 3px solid #C51D98;
+  padding: 5px 20px;
+  background: none;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px #FFACAC;
+}
 #form-one{
   background: #F3F3F3;
   min-width: 320px;
-  max-width: 350px;
-  margin-left: 100px;
+  max-width: 380px;
   border-radius: 30px;
   min-height: 400px;
   margin-bottom: 100px;
-  box-shadow: 5px 5px 10px rgb(197, 197, 197);
+  box-shadow: 5px 5px 10px rgb(119, 119, 119);
   text-align: center;
   align-items: center;
 }
 
 #logo-center{
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 80px;
 }
 
@@ -35,27 +66,39 @@ label{
   border-radius: none;
   background: none;
   border: none;
-  border-bottom: 2px solid #FFACAC;
-  width: 50%;
+  border-bottom: 1px solid #FFACAC;
+  width: 70%;
+  text-align: left;
 }
 
 .Form {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 input {
   background-color: transparent;
   margin: 1%;
 }
 .ButtonLogin {
+  width: 90%;
   color: white;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 70px;
   background: linear-gradient(to right, #C51D98, #FFACAC);
   border: none;
   border-radius: 30px;
   padding: 15px 100px;
   margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.ButtonLogin:hover{
+  background-clip: text;
+  color: transparent;
+  border: 1px solid #C51D98;
+  transform: translateY(-1px);
+  box-shadow: 1px 1px 10px rgb(189, 189, 189);
+  transition: 0.3s;
 }
