@@ -34,7 +34,7 @@ function Menu() {
       <button className="ButtonMenu" onClick={ListarJogos}><img className="imgs-opt" src="https://img.icons8.com/ios-filled/40/000000/design.png"/>
       <p className="btmt">SOLICITAR EMPRÉSTIMOS</p>
       </button><br></br>
-      <button className="exit" onClick={Sair}><img id="exit-menu" src="https://img.icons8.com/small/21/000000/exit.png"/>
+      <button className="exit" onClick={Sair}><img id="exit-menu" src="https://img.icons8.com/small/21/000000/exit.png"/><img id="exit-hidden" src="https://img.icons8.com/android/20/000000/long-arrow-right.png"/>
         SAIR
       </button>
     </div>

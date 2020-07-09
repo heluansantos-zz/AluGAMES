@@ -113,9 +113,22 @@
   display: flex; /*fica um ao lado do outro*/
   justify-content: space-between; /*Irá dar espaço entre os itens*/
   font-weight: bolder;
+  transition: 0.2s;
 }
 
+.exit:hover{
+  background: #ffacac71;
+  color: white;
+  padding: 1px 3px;
+  border-radius: 5px;
+}
+
+
+
+#exit-hidden{
+  transform: rotate(180deg);
+  opacity: 0;
+}
 #exit-menu{
   transform: rotate(180deg);
-  margin-right: 10px;
 }
