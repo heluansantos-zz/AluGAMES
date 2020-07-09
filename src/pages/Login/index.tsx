@@ -1,16 +1,21 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import "./styles.css";
 
 function Login() {
+  const history = useHistory();
+  function login() {
+    history.push("/menu");
+  }
   return (
     <div className="App">
-      <p className="Title">AluGAMES</p>
+      <p className="Title">ALUGAMES</p>
       <form className="Form">
-        <label htmlFor="">User</label>
-        <input type="Usuário" />
-        <label htmlFor="">User</label>
-        <input type="Senha" />
-        <button type="submit">Entrar</button>
+        <input type="e-mail" placeholder="E-mail" />
+        <input type="password" placeholder="Senha" />
+        <button className="ButtonLogin" type="submit" onClick={login}>
+          Entrar
+        </button>
       </form>
     </div>
   );
