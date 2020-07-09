@@ -10,13 +10,19 @@ function Login() {
   return (
     <div className="App">
       <p className="Title">ALUGAMES</p>
-      <form className="Form">
-        <input type="e-mail" placeholder="E-mail" />
-        <input type="password" placeholder="Senha" />
-        <button className="ButtonLogin" type="submit" onClick={login}>
-          Entrar
-        </button>
-      </form>
+      <div id="form-one">
+        <img id="logo-center" src="../../assets/logo-center.png"/>
+        <form className="Form">
+          <label>Usuário</label>
+          <input id="enter-text" type="e-mail" placeholder="E-mail" /><br></br>
+
+          <label>Senha</label>
+          <input id="enter-text" type="password" placeholder="Senha" /><br></br>
+          <button className="ButtonLogin" type="submit" onClick={login}>
+            ENTRAR
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

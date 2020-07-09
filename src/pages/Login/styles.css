@@ -1,26 +1,61 @@
 .App {
-  background-image: url(../../assets/fundo.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(../../assets/fundo.jpg) no-repeat right bottom fixed;
+  background-size: 10px;
 }
 .Title {
   font-size: 30px;
   padding: 10%;
 }
+
+#form-one{
+  background: #F3F3F3;
+  min-width: 320px;
+  max-width: 350px;
+  margin-left: 100px;
+  border-radius: 30px;
+  min-height: 400px;
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 10px rgb(197, 197, 197);
+  text-align: center;
+  align-items: center;
+}
+
+#logo-center{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+label{
+  color: #FFACAC;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#enter-text{
+  border-radius: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #FFACAC;
+  width: 50%;
+}
+
 .Form {
   align-items: center;
   flex-direction: column;
-  padding: 5%;
+  text-align: center;
+  padding: 20px;
 }
 input {
   background-color: transparent;
   margin: 1%;
 }
 .ButtonLogin {
-  background-color: transparent;
-  margin: 1%;
-  border-color: violet;
-  border-radius: 5px;
-  padding: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 60px;
+  background: linear-gradient(to right, #C51D98, #FFACAC);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 100px;
+  margin-bottom: 30px;
 }
