@@ -4,6 +4,7 @@ import "./styles.css";
 import logoUm from "../../assets/logo-um.png";
 import logoCenter from "../../assets/logo-center.png";
 
+
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -29,11 +30,11 @@ function Login() {
   return (
     <div className="App">
       <div className="flex">
-        <img src={logoUm} alt="Imagem de logo" height="100" />
+        <img src={logoUm} alt="Imagem de logo" height="55" />
         <button className="botao-ajuda">AJUDA</button>
       </div>
       <div className="form-one">
-        <img className="logo-center" src={logoCenter} alt="logo" />
+        <img className="logo-center" src={logoCenter} alt="logo" height="25"/>
         <form className="Form" onSubmit={handleSubmit}>
           <label>Usuário</label>
           <input

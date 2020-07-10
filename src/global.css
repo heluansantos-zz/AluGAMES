@@ -9,6 +9,8 @@
 
 body {
   font: 400 14px Roboto, sans-serif;
+  height: 100vh;
+  overflow: hidden;
 }
 
 input,

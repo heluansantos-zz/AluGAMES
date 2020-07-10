@@ -1,8 +1,12 @@
 .App {
   background-image: url("../../assets/fundo.png");
   background-position: center;
-  background-size: cover;
+  background-size: 1000px;
   background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .flex-menu {
@@ -11,8 +15,6 @@
   flex-wrap: wrap;
   align-items: center;
   padding-bottom: 100px;
-  margin-left: 2%;
-  margin-right: 10%;
 }
 
 .imagem-perfil {
@@ -50,7 +52,6 @@
   margin-bottom: 1%;
   border: none;
   transition: 0.3s;
-  margin-left: 2%;
 }
 
 .ButtonMenu:hover {

@@ -21,7 +21,7 @@ function Menu() {
     <div className="App">
       <div className="flex-menu">
         <div className="l-e-sbv">
-          <img src={logoUm} alt="Imagem de logo" height={80} />
+          <img src={logoUm} alt="Imagem de logo" height={30} />
           <p className="sbv">
             Seja bem vindo! <span>USUÁRIO</span>
           </p>
