@@ -1,5 +1,10 @@
-
-
+.App {
+  background-image: url("../../assets/fundo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .Title {
   font-size: 30px;
   padding: 10%;

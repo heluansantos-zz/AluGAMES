@@ -1,41 +1,40 @@
 .App {
-  background-image: url(../../assets/fundo111.png) no-repeat right bottom fixed;
-  background-size: 200px;
-  padding-top: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 100vh;
-  overflow: hidden;
+  background-image: url("../../assets/fundo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#flex-menu{
+.flex-menu {
   display: flex; /*fica um ao lado do outro*/
-    justify-content: space-between; /*Irá dar espaço entre os itens*/
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 100px;
+  justify-content: space-between; /*Irá dar espaço entre os itens*/
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 100px;
+  margin-left: 2%;
+  margin-right: 10%;
 }
 
-#imagem-perfil{
+.imagem-perfil {
   margin-top: 10px;
   border: none;
   padding: 35px 20px;
   background: none;
   border-radius: 5px;
-  box-shadow: 0px 5px 10px #FFACAC;
+  box-shadow: 0px 5px 10px #ffacac;
 }
 
-#sbv{
-  color: #FFACAC;
+.sbv {
+  color: #ffacac;
   padding-top: 10px;
   font-size: 25px;
   font-weight: bolder;
   letter-spacing: 1px;
 }
 
-#sbv span{
+.sbv span {
   font-size: 35px;
-  color: #C51D98;
+  color: #c51d98;
   font-weight: bolder;
 }
 .Title {
@@ -51,84 +50,83 @@
   margin-bottom: 1%;
   border: none;
   transition: 0.3s;
+  margin-left: 2%;
 }
 
-.ButtonMenu:hover{
-  color: #C51D98;
+.ButtonMenu:hover {
+  color: #c51d98;
   transform: translateY(-3px);
-  background: linear-gradient(to right, #C51D98, #FFACAC);
+  background: linear-gradient(to right, #c51d98, #ffacac);
   background-clip: text;
   color: transparent;
   text-shadow: 1px 10px 15px rgba(105, 104, 104, 0.274);
- 
 }
 
-.imgs-opt{
+.imgs-opt {
   animation-name: mexendo;
   animation-duration: 0.8s;
 }
 
 @keyframes mexendo {
-  10%{
+  10% {
     transform: rotate(-10deg);
   }
-  20%{
+  20% {
     transform: rotate(10deg);
   }
-  30%{
+  30% {
     transform: rotate(-10deg);
   }
-  40%{
+  40% {
     transform: rotate(10deg);
   }
-  50%{
+  50% {
     transform: rotate(-10deg);
   }
-  60%{
+  60% {
     transform: rotate(10deg);
   }
 }
 
-.ButtonMenu > .imgs-opt:hover{
+.ButtonMenu > .imgs-opt:hover {
   animation-name: pulando;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes pulando {
-  10%{
+  10% {
     transform: translateY(-3px);
   }
 }
 
-.btmt{
+.btmt {
   margin-left: 35px;
 }
 
-.exit{
+.exit {
   margin-top: 130px;
   border: none;
   background: none;
-  color: #FFACAC;
+  color: #ffacac;
   display: flex; /*fica um ao lado do outro*/
   justify-content: space-between; /*Irá dar espaço entre os itens*/
   font-weight: bolder;
   transition: 0.2s;
+  margin-left: 2%;
 }
 
-.exit:hover{
+.exit:hover {
   background: #ffacac71;
   color: white;
   padding: 1px 3px;
   border-radius: 5px;
 }
 
-
-
-#exit-hidden{
+.exit-hidden {
   transform: rotate(180deg);
   opacity: 0;
 }
-#exit-menu{
+.exit-menu {
   transform: rotate(180deg);
 }
