@@ -4,8 +4,233 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  padding: 0.6% 4.1%;
 }
 .Title {
   font-size: 30px;
   padding: 10%;
+}
+.logo-top{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #be0a79;
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.icon-page{
+  padding-top: 10px;
+  display: flex;
+}
+.icon-page p{
+  padding-top: 10px;
+}
+.title-page img{
+  padding-top: 10px;
+}
+.box-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #f3f3f3;
+  margin: 30px 100px 0 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+  min-height: 504px;
+  box-shadow: 3px 3px 10px rgb(122, 122, 122);
+  text-align: center;
+  align-items: center;
+}
+.minibox-left{
+  min-width: 300px;
+  max-width: 700px;
+  height: 455px;
+  width: 525px;
+}
+.topo-left{
+  height: 40px;
+  width: 100%;
+}
+.back{
+  margin: 50px 0 0 20px;
+  height: 40px;
+  padding-left: 0;
+  width: 40px;
+  display: flex;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-radius: 30px;
+}
+.back img{
+  padding: 5px;
+}
+.input-description{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 500px;
+  margin-left: 20px;
+}
+.input-description img{
+  margin: 8px 0 0 10px;
+}
+.name-game{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: bold;
+  width: 480px;
+}
+.name-game p{
+  
+  padding-top: 15px;
+  padding-left: 3px;
+}
+.input-description input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #be0a79;;
+  width: 275px;
+}
+.info-game{
+  display: flex;
+  margin-top: 30px;
+  height: 230px;
+  width: 460px;
+  margin-left: 20px;
+
+}
+.info-game p{
+  height: 20px;
+}
+.game-picture{
+  background: #f3f3f3;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  height: 190px;
+  width: 120px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 5px rgb(201, 198, 198);
+}
+.game-picture img{
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+}
+.note{
+  height: 170px;
+  width: 250px;
+  margin-left: 70px;
+}
+.note input{
+  height: 120px;
+}
+.warning{
+  height: 50px;
+  width: 460px;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 5px;
+  color: red;
+}
+.line-center {
+  height: 300px;
+  width: 1px;
+  background-color: #be0a79;
+}
+.minibox-right{
+  min-width: 300px;
+  max-width: 700px;
+  height: 455px;
+  width: 525px;
+}
+.info-user {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  height: 155px;
+  width: 100%;
+}
+.name{
+  padding: 70px 0 0 30px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 0%;
+}
+.name-user{
+  padding: 50px 20px 0 0;
+  width: 200px;
+  height: 150px;
+  color: #be0a79;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.picture-user{
+  width: 25%;
+  height: 150px;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.picture-user img{
+  box-shadow: 4px 4px 8px rgb(233, 112, 207);
+  padding: 20% 10% 0% 0%;
+  height: 110px;
+  width: 100px;
+}
+
+.term{
+  padding: 0 0 0 45px;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 15px;
+}
+.register{
+  height: 50px;
+}
+.register button{
+  margin: 5px 0 0 250px;
+  height: 35px;
+  width: 200px;
+  background-color: rgb(0, 255, 0);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 30px;
+}
+.exit-page{
+  background:transparent; 
+  border:none; 
+  outline:none; 
+  display:block; 
+  height: 20px;
+  width: 50px;
+  cursor:pointer;
+}
+.exit-page button{
+  margin: 10px 0 0 100px;
+  color: #eb85c4;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.exit-page button p{
+  padding-top:5px ;
+  width: 80px;
+  height: 30px;
+}
+.exit-page button img{
+  float: left;
+  width: 20px;
+  padding-top: 5px;
 }

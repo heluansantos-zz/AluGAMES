@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Menu from "./pages/Menu";
 import CadastrarJogo from "./pages/CadastrarJogo";
@@ -11,7 +11,6 @@ import Perfil from "./pages/Perfil";
 export default function Routes() {
   return (
     <BrowserRouter>
-      <Switch>
         <Route path="/" component={Login} exact />
         <Route path="/menu" component={Menu} />
         <Route path="/cadastrarjogo" component={CadastrarJogo} />
@@ -19,7 +18,6 @@ export default function Routes() {
         <Route path="/listarjogos" component={ListarJogos} />
         <Route path="/perfil" component={Perfil} />
         <Route path="/chat" component={Chat} />
-      </Switch>
     </BrowserRouter>
   );
 }
