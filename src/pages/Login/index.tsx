@@ -4,7 +4,6 @@ import "./styles.css";
 import logoUm from "../../assets/logo-um.png";
 import logoCenter from "../../assets/logo-center.png";
 
-
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -34,7 +33,7 @@ function Login() {
         <button className="botao-ajuda">AJUDA</button>
       </div>
       <div className="form-one">
-        <img className="logo-center" src={logoCenter} alt="logo" height="25"/>
+        <img className="logo-center" src={logoCenter} alt="logo" height="25" />
         <form className="Form" onSubmit={handleSubmit}>
           <label>Usuário</label>
           <input
